@@ -24,9 +24,9 @@ export default function Hero() {
   return (
     <section id="home" className="relative flex min-h-screen items-center justify-center pt-20 pb-32">
       <div className="mx-auto max-w-7xl px-4 w-full">
-        <div className="grid items-center gap-16 lg:grid-cols-[1fr_400px]">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-[1fr_400px] items-center gap-12 lg:gap-16">
           {/* Main Text Content */}
-          <div className="flex flex-col items-start z-10">
+          <div className="flex flex-col items-start z-10 w-full">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -47,7 +47,7 @@ export default function Hero() {
               className="mt-8 text-5xl font-bold tracking-tight text-white sm:text-7xl lg:text-[5.5rem] leading-[1.1]"
             >
               Hi, I am Mahmoud. <br />
-              <div className="mt-2 text-slate-500 h-[1.3em] overflow-hidden">
+              <div className="mt-3 text-slate-500 h-[1.3em] overflow-hidden text-3xl sm:text-5xl lg:text-[4.5rem] w-full">
                 <Typing words={headlineWords} />
               </div>
             </motion.h1>
@@ -92,7 +92,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="flex w-full justify-center lg:block z-10 mt-12 lg:mt-0"
+            className="flex w-full justify-center lg:block z-10 mb-4 lg:mb-0"
           >
             {/* The 3D Photo from the previous step */}
             <Photo3D />
