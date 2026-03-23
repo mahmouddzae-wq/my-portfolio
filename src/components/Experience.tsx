@@ -17,7 +17,7 @@ export default function Experience() {
     {
       role: "Freelance Web Developer",
       company: "Self-Employed",
-      period: "2024 — Present",
+      period: "2025 — Present",
       description:
         "Building modern, responsive websites and web applications for clients using Next.js, React, and Tailwind CSS. Focused on delivering pixel-perfect, performant solutions.",
       skills: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
@@ -25,7 +25,7 @@ export default function Experience() {
     {
       role: "Desktop Application Developer",
       company: "Personal Projects",
-      period: "2023 — Present",
+      period: "2025 — Present",
       description:
         "Developed Java-based desktop applications including a Pharmacy Management System and Library Management System with full CRUD operations and database integration.",
       skills: ["Java", "OOP", "Database", "GUI"],
@@ -33,7 +33,7 @@ export default function Experience() {
     {
       role: "AI & Automation Explorer",
       company: "Self-Learning",
-      period: "2024 — Present",
+      period: "2025 — Present",
       description:
         "Exploring LLM integration, prompt engineering, and agentic development workflows to build smarter, AI-assisted applications.",
       skills: ["LLMs", "Prompt Engineering", "Agentic Patterns"],

@@ -16,19 +16,19 @@ export default function Certifications() {
     {
       title: "Java Programming",
       issuer: "University Coursework",
-      date: "2024",
+      date: "2025",
       icon: "☕",
     },
     {
       title: "Web Development Fundamentals",
       issuer: "Online Learning",
-      date: "2024",
+      date: "2025",
       icon: "🌐",
     },
     {
       title: "Git & Version Control",
       issuer: "Self-Study",
-      date: "2024",
+      date: "2025",
       icon: "🔀",
     },
     {
@@ -40,13 +40,13 @@ export default function Certifications() {
     {
       title: "React & Next.js",
       issuer: "Online Learning",
-      date: "2025",
+      date: "2026",
       icon: "⚛️",
     },
     {
       title: "Database Management",
       issuer: "University Coursework",
-      date: "2024",
+      date: "2025",
       icon: "🗄️",
     },
   ];

@@ -16,8 +16,8 @@ export default function Education() {
   const education: EducationItem[] = [
     {
       degree: "Computer Science Engineering",
-      school: "University",
-      period: "2024 — Present",
+      school: "University of saida dr. moulay taher",
+      period: "2025 — Present",
       description:
         "Pursuing a rigorous CS engineering degree with deep focus on algorithms, data structures, systems architecture, and software development.",
       highlights: [
