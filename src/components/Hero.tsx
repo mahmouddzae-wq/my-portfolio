@@ -89,10 +89,10 @@ export default function Hero() {
 
           {/* 3D Photo Container */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="hidden lg:block z-10"
+            className="flex w-full justify-center lg:block z-10 mt-12 lg:mt-0"
           >
             {/* The 3D Photo from the previous step */}
             <Photo3D />

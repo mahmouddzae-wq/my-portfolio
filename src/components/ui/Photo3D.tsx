@@ -38,12 +38,14 @@ export default function Photo3D() {
   };
 
   return (
-    <div
+    <motion.div
       ref={ref}
       className="relative mx-auto w-[280px] md:w-[320px] aspect-square rounded-[2rem]"
       style={{ perspective: 1200 }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      animate={{ y: [0, -15, 0] }}
+      transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
     >
       <motion.div
         className="relative h-full w-full rounded-[2rem] border border-white/10 bg-white/[0.03] shadow-[0_0_0_1px_rgba(255,255,255,0.03)] backdrop-blur-xl"
@@ -91,6 +93,6 @@ export default function Photo3D() {
         {/* Soft edge highlights */}
         <div className="pointer-events-none absolute inset-0 rounded-[2rem] border border-white/[0.08]" />
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
