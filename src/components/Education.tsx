@@ -17,7 +17,7 @@ export default function Education() {
     {
       degree: "Computer Science Engineering",
       school: "University",
-      period: "2023 — Present",
+      period: "2024 — Present",
       description:
         "Pursuing a rigorous CS engineering degree with deep focus on algorithms, data structures, systems architecture, and software development.",
       highlights: [
@@ -27,18 +27,7 @@ export default function Education() {
         "Operating Systems",
       ],
     },
-    {
-      degree: "Baccalaureate — Sciences",
-      school: "High School",
-      period: "2020 — 2023",
-      description:
-        "Graduated with a strong foundation in mathematics, physics, and logical reasoning.",
-      highlights: [
-        "Mathematics",
-        "Physics",
-        "Analytical Thinking",
-      ],
-    },
+
   ];
 
   return (
